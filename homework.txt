@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a, b;
+	cout << "Enter 2 numbers: ";
+	cin >> a >> b;
+	if (a > b) {
+		cout << "first number bigger" << endl;
+
+	}
+	else if (a == b) {
+		cout << "numbers are equal" << endl;
+	}
+	else {
+		cout << "second number bigger" << endl;
+	}
+	system("pause");
+	return 0;
+}
